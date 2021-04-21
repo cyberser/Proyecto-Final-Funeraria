@@ -1,0 +1,392 @@
+#servicios{
+	text-align: center;
+margin:auto;
+
+}
+#servicios h1{
+  width: 183px;
+  height: 58px;
+  margin:auto;
+  margin-bottom: 55px;
+  top:-50px;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#servicios a{
+ margin: auto;
+}
+.contenido h2{
+margin: auto;
+
+
+}
+
+.mop{
+  
+  height: 76px;
+
+  /*width: 287px;
+  background-color: black;
+  color:white;
+  border-radius: 20%;*/
+
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 44px 10px 40px;
+  border-radius: 30px;
+  background-color:#804000; 
+  width: 80%;
+
+  /*background-color: #704C2A;*/
+
+}
+.mop:hover{
+  position: relative;
+  top:2px;  
+}
+
+.you{
+  background:  #804000;
+  border-bottom: 10px solid rgba(0,0,0,0.4);
+  border-right: 8px solid rgba(0,0,0,0.4);
+
+}
+
+.you:hover{
+  border-bottom: 5px solid rgba(0,0,0,0.6);
+  border-right: 5px solid rgba(0,0,0,0.6);
+}
+.yop{
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+color:white;
+}
+
+
+
+#servicios p{
+  margin-bottom: 15px;
+  width: 335px;
+  margin: auto;
+  font-size: 28px;
+  padding-bottom: 80px;
+}
+#servicios h1{
+color: black;
+}
+.pop{
+
+  display: inline-block;
+  position: relative;
+  right: 15px;
+}
+.pop::before,.pop::after{
+  content: "";
+  position:absolute;
+  width: 70px;
+  height: 3px;
+  color: black;
+  background-color:black;
+  top:3em;
+
+
+}
+.nic{
+  margin: auto;
+  position: relative;
+  top: 32px;
+}
+.pop::after{
+  left: -45px;
+}
+.pop::before{
+  right: -75px;
+}
+h3{
+	margin-top: 74px; 
+	margin-bottom: 57px;
+	font-size: 28px;
+}
+.obi{
+	margin-top: 74px;
+	margin-bottom: 30px;
+
+}
+/*button{
+	width: 290px;
+	height: 56px;
+	background-color: black;
+	color: white;
+	border-radius: 20%;
+	font-size: 20px;
+}*/
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+ #crema{
+    display: none;
+  }
+ #servicios-desktop{
+    display: none;
+  }
+  
+
+
+@media  (min-width: 812px) {
+    h2{
+      margin: auto;
+    }
+    #servicios-desktop{
+    display: none;
+  }
+  #crema{
+    display: none;
+  }
+  .mop{
+  
+  height: 76px;
+
+  /*width: 287px;
+  background-color: black;
+  color:white;
+  border-radius: 20%;*/
+
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 44px 10px 120px;
+  border-radius: 30px;
+  background-color:#804000; 
+  width: 70%;
+
+  /*background-color: #704C2A;*/
+
+}
+ 
+    }
+
+    /*--------------1080px mediaQuery------------*/
+
+@media  (min-width: 1080px) {
+  #servicios{
+    display: none;
+  }
+  #servicios-desktop{
+    display: block;
+    text-align: center;
+  }
+  #servicios-desktop p{
+    font-size: 24px;
+    margin-top: 150px;
+  }
+  #crema{
+    display: block;
+  }
+  h1{
+  width: 200px;
+  height: 90px;
+  margin:auto;
+  font-size: 30px;
+  color: black;
+
+}
+
+.grid img{
+  width: 300px;
+  height: 300px;
+  color: black;
+}
+.grid-paloma{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.card{
+  width: 307px;
+  height: 800px;
+}
+.tarjeta-desk{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+}
+.no-incluido{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ margin-bottom: 150px;
+}
+.no-incluido p{
+  line-height: 50px;
+}
+#crema{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+#crema p{
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.grid-crema{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+
+
+.grid-crema img{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+ 
+
+}
+
+.grid-crema li{
+  text-decoration: none;
+display: block;
+
+}
+#ser{
+  width: 100%;
+  height: 80px;
+   font-size: 90px;
+  font-family: 'Dancing Script', cursive;
+  background-color:#804000;
+}
+
+}
+.card1{
+  width: 40%;
+  overflow:hidden;
+  background: white;
+  box-shadow: 15px 15px rgba(0,0,0,0.4);
+  margin-left: 30%;
+  margin-top:  120px;
+  margin-bottom: 80px;
+}
+
+.card1 img{
+  width: 100%;
+  height: 250px;
+}
+.card1 .cubotar1{
+  padding: 15px;
+  text-align: center;
+}
+
+.card1 .cubotar1 p{
+  line-height: 1.5;
+  color:black;
+  padding: 15px;
+  font-size: 20px;
+  margin-top:-5px;
+
+}
+
+.card1 .cubotar1 h3{
+  
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.card1 .cubotar1 .titulo1{
+  margin-top:-65px;
+  margin-bottom: 10px;
+  background: black;
+  height: 50px;
+  width: 100%;
+
+}
+
+.card2{
+  width: 90%;
+  overflow:hidden;
+  background: white;
+  box-shadow: 15px 15px rgba(0,0,0,0.4);
+  margin-left: 10%;
+  margin-top:  120px;
+  margin-bottom: 80px;
+}
+
+.card2 img{
+  width: 100%;
+  height: 250px;
+}
+.card2 .cubotar2{
+  padding: 15px;
+  text-align: center;
+}
+
+#servicios-desktop .card2 .cubotar2 p{
+  line-height: 1.5;
+  color:black;
+  padding: 15px;
+  font-size: 20px;
+  margin-top:-5px;
+
+}
+
+.card2 .cubotar2 h3{
+  
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.card2 .cubotar2 .titulo2{
+  margin-top:-65px;
+  margin-bottom: 10px;
+  background: black;
+  height: 50px;
+  width: 100%;
+
+}
+
+#camara{
+  position: relative;
+  left: 50px;
+}
+#que-es{
+  width: 800px;
+position: relative;
+top: 50px;
+}
+#titulo-cremacion{
+  width: 100%;
+  height: 80px;
+  background-color:#804000 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: ;
+  font-size: 120px;
+  font-family: 'Dancing Script', cursive;
+
+}
+#urna{
+  position: relative;
+  right: 100px;
+  bottom: 50px;
+}
+#urna-texto{
+  position: relative;
+  top: 50px;
+}
+#lista-beneficios li{
+  position: relative;
+  margin-top: 50px;
+  font-size: 20px;
+
+}
+}

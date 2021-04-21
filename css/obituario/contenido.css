@@ -1,0 +1,53 @@
+
+#contenido{
+  text-align: center;
+
+  background-color: black;
+}
+#contenido h1{
+   width: 183px;
+  height: 58px;
+  margin-top: -10px;
+  margin-bottom:45px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+
+  display: inline-block;
+  position: relative;
+}
+h1::before,h1::after{
+  content: "";
+  position:absolute;
+  width: 70px;
+  height: 3px;
+  color: black;
+  background-color:white;
+  top:2.5em;
+}
+h1::after{
+  left: -40px;
+}
+h1::before{
+  right: -40px;
+}
+.ob img{
+  width: 340px;
+  height: 321px;
+  margin:0 10px 50px 10px;
+}
+.linea{
+  width: 340px;
+  height: 32px;
+}
+
+@media (min-width: 812px){
+
+  .linea{
+    width: 610px;
+    height: 35px;
+  }
+  
+
+}

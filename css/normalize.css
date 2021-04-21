@@ -1,0 +1,42 @@
+*{
+	/*font-family: 'Quattrocento', serif;*/
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+body{
+	min-width: 375px;
+}
+body p{
+	font-size: 15px;
+}
+h1{
+	color: #1b1464;
+	padding: 43px;
+	text-align: center;
+}
+h2{
+	color: black;
+	text-align: center;
+	padding: 25px;
+	font-size: 25px;
+
+
+}
+
+.animado{
+	opacity:0;
+	transition:all 0.5s;
+	animation: arriba 1.5s;
+}
+@keyframes arriba{
+	0%{
+		transform: translateY(-100px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}

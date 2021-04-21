@@ -1,0 +1,59 @@
+
+/*.icon{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 50px;
+    height: 100px;
+    background-color: black;
+
+}
+.fa-whatsapp-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fa-facebook-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fab{
+  color: white;
+  margin-top: 2rem;
+  
+}*/
+
+.icon {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 80px;
+  background: black;
+
+ 
+ 
+}
+.iconos{
+  margin-top: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.iconos a{
+  color: white;
+ 
+}
+
+.fa-whatsapp-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fa-facebook-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,141 @@
+#info{text-align: center;
+position: relative;}
+#info h1{
+  width: 269px;
+  height: 58px;
+  margin-top: -15px;
+  margin-bottom:45px;
+  text-align: center;
+
+
+}
+#info p{
+  margin-bottom: 15px;
+  width: 335px;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#info h1{
+color: black;
+}
+h3{
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+
+}
+.lop{
+
+  display: inline-block;
+  position: relative;
+}
+.lop::before,.lop::after{
+  content: "";
+  position:absolute;
+  width: 45px;
+  height: 3px;
+  color: black;
+  background-color:black;
+  top:3em;
+}
+.lop::after{
+  left: -50px;
+  top:35px;
+}
+.lop::before{
+  right: -53px;
+  top:35px;
+}
+.tit{
+  color: black;
+  padding: 20px;
+}
+
+.icon {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  font-size: 80px;
+ 
+ 
+}
+.iconos{
+  display: flex;
+  justify-content: center;
+}
+.iconos a{
+  color: black;
+}
+#redesSociales{
+  display: none;
+}
+.fa-whatsapp-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.fa-facebook-square:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#info2{
+  display: none;
+}
+
+
+
+@media  (min-width: 812px) {
+
+  
+  i{
+  color: white;
+  }
+  #info{
+    display: none;
+  }
+  #info2{
+    display: block;
+    width: 40%;
+  position: relative;
+    margin-top: 80px;
+  }
+   .tit2{
+  color: white;
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 20px;
+
+ }
+ .info2 p{
+  font-size: 40px;
+ }
+
+}
+
+
+@media  (min-width: 1080px) {
+ #info2{
+  display: none;
+
+ }
+
+  #info{
+  position: absolute;
+  display: inline-block;
+  top: 7265px;
+  left: 120px;
+  z-index: 1;
+  display: block;
+  }
+  #info p{
+    color: white;
+  }
+  #info h3{
+    color: white;
+    margin: 150px 0 40px 0;
+  }
+  .lop::before,.lop::after{
+    display: none;
+  }
+
+}

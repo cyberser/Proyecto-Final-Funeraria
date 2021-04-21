@@ -1,0 +1,76 @@
+
+.color{/*background-image:url("/img/prueba.png");*/
+		background-color: white;
+	}
+
+.cubo{
+	width: 70%;
+	margin-left: 15%;
+	display: grid;
+	background-color: white;
+
+}
+
+.card{
+	margin-top:  40px;
+	margin-bottom: 40px;
+	/*border-radius: 15px;*/
+	overflow:hidden;
+	background: white;
+	box-shadow: 15px 15px rgba(0,0,0,0.4);
+}
+
+.card img{
+	width: 100%;
+	height: 250px;
+}
+
+.card .cubotar{
+	padding: 15px;
+	text-align: center;
+}
+
+.card .cubotar p{
+	line-height: 1.5;
+	color:black;
+	padding: 15px;
+	font-size: 15px;
+
+}
+
+.card .cubotar h3{
+	
+	font-size: 17px;
+	color: white;
+	padding: 10px;
+}
+
+
+.card .cubotar .titulo{
+	background: black;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+@media  (min-width: 812px){
+
+	.cubo{
+		width: 50%;
+		margin-left: 25%;
+
+	
+	}
+
+	.card{
+		margin-top:  65px;
+		margin-bottom: 65px;
+	}
+
+	.card img{
+		width: 100%;
+		height: 250px;
+	}
+
+}

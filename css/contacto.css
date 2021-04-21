@@ -1,0 +1,170 @@
+#contacto{
+	width: 100%;
+	height: 745px;
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid white;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	margin-top: 150px;
+}
+#contacto h3{
+	width: auto;
+	color: white;
+	border-bottom: 1px solid white;
+	font-size: 24px;
+	
+	margin-bottom: 55px;
+	text-align: center;
+}
+form{
+	width: 314px;
+	height: 520px;
+	text-align: center;
+	margin:auto;
+}
+
+input{
+	width: 314px;
+	height: 30px;
+	margin-top: 38px;
+	margin-bottom: 40px;
+
+
+
+}
+textarea{
+	width: 314px;
+	height: 98px;
+	margin-top: 38px;
+	
+
+}
+#enviar{
+	width: 188px;
+	height: 78px;
+	font-size: 25px;
+	border-radius: 20%;
+}
+#info{
+	color: black;
+	position: absolute;
+}
+.alert-g{
+	background-color: green;
+	color: white;
+	position: relative;
+	top: 25px;
+	margin: auto;
+	width: 100%,
+	height:25px;
+	
+}
+.cont-img {
+	position: absolute;
+}
+.cont-img img{
+	width: 238px;
+	height: 496px;
+	opacity:61%;
+	position: absolute;
+	top: -400px; 
+
+}
+#titulo_contacto::after{
+display: none;
+}
+#titulo_contacto::before{
+display: none;
+}
+#titulo_contacto{
+color: white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+
+}
+/*--------------812px mediaQuery------------*/
+
+
+
+@media  (min-width: 812px) {
+	
+	#contacto{
+		display: grid;
+		justify-content: space-around;
+		grid-template-columns: repeat(2,auto);
+		
+		width: 100%;
+		position: relative;
+		margin-top: 100px;
+
+		
+	}
+
+	#titulo_contacto{
+
+font-size: 30px;
+position: relative;
+left: 30%;
+}
+	#contacto h1{
+		margin: auto;
+		position: absolute;
+		font-size: 50px;
+		color: white;
+		text-align: center;
+	}
+	form{
+		position: absolute;
+		right: 50px;
+		top: 150px;
+	}
+	#contacto h3{
+	font-size: 34px;
+	}
+	
+}
+
+/*--------------1080px mediaQuery------------*/
+@media  (min-width: 1080px) {
+	.cont-img{
+		display: none;
+	}
+#titulo_contacto{
+	color: black!important;
+}
+#contacto{
+	width: 100%;
+	background-size: 100% 100%;
+	background-image: url('../img/mejores-frases-de-pesame.jpg');
+	margin: auto;
+}
+form{
+	position: absolute;
+	right: 150px;
+}
+#imagen{
+	margin-top: 200px;
+}
+#enviar{
+	 padding: 6px 30px;
+  border-radius: 40px;
+  border: 2px solid #ccc;
+}
+ #enviar:hover{
+	color: white;
+	background-color: #008C81;
+	transition: all 0.5s ease;
+}
+#enviar:checked{
+	background-color: purple;
+	color: white;
+	border: 2px solid purple;
+}
+#contacto h1{
+		margin-left: 60px;
+		font-size: 80px;
+	}
+
+}
