@@ -26,7 +26,7 @@ h2{
 
 
 }
-
+/*-------------sección animada de los titulos----------------*/
 .animado{
 	opacity:0;
 	transition:all 1.5s;
@@ -45,7 +45,7 @@ h2{
 }
 /*animación de la paloma*/
 .delado{
-	animation: delado 1s;
+	animation: delado 2s;
 
 }
 @keyframes delado{
