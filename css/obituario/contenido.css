@@ -9,8 +9,8 @@
   height: 58px;
   margin-top: -10px;
   margin-bottom:45px;
-  color: white;
-  font-family: 'Dancing Script', cursive;
+  color: red;
+  font-family: 'Dancing Script', cursive !important;
 }
 h1{
 
@@ -49,5 +49,31 @@ h1::before{
     height: 35px;
   }
   
+#contenido h1{
+  
+  color: green;
+  font-family: 'Dancing Script', cursive !important;
+}
+}
+
+@media (min-width: 1080px){
+
+  .linea{
+    width: 710px;
+    height: 35px;
+  }
+  
+  #contenido h1{
+    
+    color: green;
+    font-family: 'Dancing Script', cursive !important;
+  }
+
+  .ob img{
+    width: 450px;
+    height: 400px;
+    margin:0 35px 60px 35px;
+  }
+
 
 }

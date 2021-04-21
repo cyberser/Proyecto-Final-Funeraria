@@ -41,29 +41,32 @@
        <img src="img/recurso.png" alt="Imagen de un arbol, logo de la Funeraria El Reencuentro">
    </div><!----final de logo------>
   
-   <div class="caja-texto">
+   <div class="caja-texto" tabindex="0">
       <p>Funeraria El Reencuentro</p>
       <p>Funeraria Juan Pablo II</p>
       <p>Funeraria El Reencuentro Rivas</p>
    </div><!----final de caja-texto------>
  
   <div id="contenedor-menu">
-     <button class="panel-btn hamburger hamburger--vortex " type="button"  id="panel-btn2">
-       <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-       </span>
+     <button class="panel-btn hamburger hamburger--vortex " type="button"  id="panel-btn2" aria-describedby="descrip-menu">
+    <div id="descrip-menu">Este es el botón de navegación, continuar para escuchar el menú</div>
+       <div class="boton">
+                 <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                 </span>
+             </div><!--final boton--> 
      </button>
 
 
   <section id="menu">
     <nav>
       <ul>
-        <li><a href="#caja">Inicio</a></li>
-        <li><a href="#">Quienes Somos</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Obituario</a></li>
-        <li><a href="#">Sedes</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#caja" tabindex="0">Inicio</a></li>
+        <li><a href="#"tabindex="0">Quienes Somos</a></li>
+        
+        <li><a href="obituario.html"tabindex="0">Obituario</a></li>
+        <li><a href="#"tabindex="0">Sedes</a></li>
+        <li><a href="#"tabindex="0">Contacto</a></li>
       </ul>
     </nav>
   </section><!----final de menu------>
@@ -74,12 +77,18 @@
   <content>
     
     <section class="contenido">
-      <h1>Nuestros servicios</h1>
+      <h1 tabindex="0">Nuestros servicios</h1>
       <img src="img/paloma.png" align="">
+      <div class="mover">
+        <h2 tabindex="0">Contratos de servicios funebres</h2>
+        <p tabindex="0">Información acerca de paquetes funerarios:</p>
+      </div>
     </section><!------final contenido---------->
     <section class="contratos">
-      <h2>Contratos de servicios funebres</h2>
-      <p>Información acerca de paquetes funerarios:</p>
+      <div class="mover2">
+        <h2 tabindex="0">Contratos de servicios funebres</h2>
+        <p tabindex="0">Información acerca de paquetes funerarios:</p>
+      </div>
     
 <!------inicio de las tarjetas---------->
 <section class="color">
@@ -92,8 +101,8 @@
       </figure>
       <div class="cubotar">
       
-        <div class="titulo"><h3>Cremación Básica</h3></div>
-        <p>Féretro de Madera.<br>
+        <div class="titulo"><h3 tabindex="0">Cremación Básica</h3></div>
+        <p tabindex="0">Féretro de Madera.<br>
           Traslado en coche fúnebre. <br>
           Proceso de cremación.<br>
           Urna de Madera.<br>
@@ -104,12 +113,12 @@
 
     <div class="card">
       <figure>
-        <img src="img/cajita.jpg">
+        <img src="img/cajita.jpg" alt="Imagen de una Urna de madera de foma cuadrada" tabindex="0">
       </figure>
       <div class="cubotar">
-        <div class="titulo"><h3>Cremación  y Funeral</h3></div>
+        <div class="titulo"><h3 tabindex="0">Cremación  y Funeral</h3></div>
        
-        <p>Féretro de Madera Ejecutivo.<br>
+        <p tabindex="0">Féretro de Madera Ejecutivo.<br>
         Traslados en coche fúnebre.<br> 
         Cuatro arreglos florales naturales
         Decoración de Iglesia
@@ -121,11 +130,11 @@
     </div>
     <div class="card">
       <figure>
-        <img src="img/peluche.jpg">
+        <img src="img/peluche.jpg" alt="Imagen representativa de un féretro de peluche" tabindex="0">
       </figure>
       <div class="cubotar">
-        <div class="titulo"><h3>Féretro de Peluche</h3></div>
-        <p>Traslados en coche fúnebre.<br>
+        <div class="titulo"><h3 tabindex="0">Féretro de Peluche</h3></div>
+        <p tabindex="0">Traslados en coche fúnebre.<br>
         4 arreglos florales naturales. <br>
         Decoración de Iglesia.<br> 
         quipo de velación portátil.<br>
@@ -139,11 +148,11 @@
 
     <div class="card">
       <figure>
-        <img src="img/unnamed (3).png">
+        <img src="img/unnamed (3).png" alt="Iamgen representativade un féretro de madera laqueado">
       </figure>
       <div class="cubotar">
-        <div class="titulo"><h3 class="Ejecutivo">Féretro de Madera Ejecutivo Laqueado</h3></div>
-        <p>Traslados en coche fúnebre.<br>
+        <div class="titulo"><h3 class="Ejecutivo" tabindex="0">Féretro de Madera Ejecutivo Laqueado</h3></div>
+        <p tabindex="0">Traslados en coche fúnebre.<br>
         6 arreglos florales naturales.<br> 
         Decoración de Iglesia.<br> 
         Equipo de velación portátil.<br>
@@ -157,18 +166,21 @@
 
 <!------fin de las tarjetas---------->
     
-      <h2>Servicios Adicionales</h2>
-      <br></br> Servicios de Cremación</p>
+      <h2 tabindex="0">Servicios Adicionales</h2>
+      <br></br>
+
+      <p tabindex="0"> Servicios de Cremación</p>
+      
       <ul>  
-        <li>Sala de Velación</li>
+        <li tabindex="0">Sala de Velación</li>
         
-        <li>Patología</li>
+        <li tabindex="0">Patología</li>
         
-        <li>Autopsia</li>
+        <li tabindex="0">Autopsia</li>
         
-        <li>Coro</li>
+        <li tabindex="0">Coro</li>
         
-        <li>En caso de Iglesia Católica, esta cobra un rubro extra como catafalco , 
+        <li tabindex="0">En caso de Iglesia Católica, esta cobra un rubro extra como catafalco , 
         no incluidos en
         nuestro paquete Funerario.</li>
 
@@ -185,31 +197,39 @@
 <section class="masInfo">
     <img src="img/mejores-frases-de-pesame.jpg">
   <div class="contenedor">
-   <p>Para información más detallada por favor contactar a las personas encargadas y con gusto 
+   <p tabindex="0">Para información más detallada por favor contactar a las personas encargadas y con gusto 
 les atenderán.</p>
 
-<p>Encargado: William Vermúdez 
+<p tabindex="0">Encargado: William Vermúdez 
   <br></br>Funeraria El reencuentro<br></br>Telefono:XXXX-XXXX</p>
 
-<p>Encargado: Minor
+<p tabindex="0">Encargado: Minor
   <br></br>Funeraria Juan Pablo II.<br></br>Telefono:XXXX-XXXX</p>
 
-<p>Encargado: Desconocido 
+<p tabindex="0">Encargado: Desconocido 
   <br></br>Funeraria El Reecuentro Rivas (Nicaragua).<br></br>Telefono:XXXX-XXXX</p>
 </div>
   
 </section><!--------final masInfo-------->
    
    <!---------social--------->
-   <div class="icon">
- <i class="fab fa-facebook-square"><a href="#"  target="_blank"></a></i> 
-  <i class="fab fa-whatsapp-square"><a href="#" target="_blank" ></a></i>
+  <div class="icon">
+  <div id="redesSociales" area-hidden="true">
+            <p id="Facebook">Este enlace abre una pestaña a Facebook</p>
+            <p id="Whatsapp">Este enlace abre una pestaña a Whatsapp</p>
+          </div>
+ <div class="iconos">
+  <a href="https://www.facebook.com/Funeraria-El-Reencuentro-371920616190201" class="icon" target="_blank" aria-describedby="Facebook"><i class="fab fa-facebook-square" ></i></a>
+
+ <a href="https://api.whatsapp.com/send?phone=+50689472268&text=Funeraria%20El%20Reencuentro,%20Bienvenido(a)." target="_blank" class="icon" aria-describedby="Whatsapp"> <i class="fab fa-whatsapp-square" ></i> </a>
+</div>
+
 </div>
  
    <!---------footer--------->
 
   <footer>
-  <p>Funeraria el Reencuentro © Melanye/Sergio</p>
+  <p tabindex="0">Funeraria el Reencuentro © Melanye/Sergio</p>
 </footer>
   </content>
 </main>

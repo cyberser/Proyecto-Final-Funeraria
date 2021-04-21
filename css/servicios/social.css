@@ -54,6 +54,9 @@
   transform: scale(1.2);
   cursor: pointer;
 }
+#redesSociales{
+  display: none;
+}
 
 @media  (min-width: 812px){
   .icon{

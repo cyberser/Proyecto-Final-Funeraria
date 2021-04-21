@@ -10,6 +10,7 @@ function mostrar(){
 			animado[i].style.opacity=1;
 			animado[i].classList.add("arriba");
 			if (alturaAnimada - 200 <scrollTop) {
+				paloma.style.opacity=1;
 				paloma.classList.add("delado");
 			}
 		}

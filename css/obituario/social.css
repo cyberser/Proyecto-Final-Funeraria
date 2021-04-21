@@ -1,27 +1,4 @@
 
-/*.icon{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  font-size: 50px;
-    height: 100px;
-    background-color: black;
-
-}
-.fa-whatsapp-square:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
-.fa-facebook-square:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-}
-.fab{
-  color: white;
-  margin-top: 2rem;
-  
-}*/
 
 .icon {
   width: 100%;
