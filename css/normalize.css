@@ -29,14 +29,34 @@ h2{
 
 .animado{
 	opacity:0;
-	transition:all 0.5s;
-	animation: arriba 1.5s;
+	transition:all 1.5s;
+
+}
+.arriba{
+	animation: arriba 1s;
 }
 @keyframes arriba{
 	0%{
-		transform: translateY(-100px);
+		transform: translateY(100px);
 	}
 	100%{
 		transform: translateY(0);
 	}
+}
+/*animación de la paloma*/
+.delado{
+	animation: delado 1s;
+
+}
+@keyframes delado{
+	0%{
+		transform: translateX(-500px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.ave{
+	opacity: 0;
+	transition:all 2s;
 }
