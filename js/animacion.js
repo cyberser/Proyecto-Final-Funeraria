@@ -6,7 +6,7 @@ function mostrar(){
 	let scrollTop= document.documentElement.scrollTop;
 	for (var i = 0; i<animado.length; i++) {
 		let alturaAnimada= animado[i].offsetTop;
-		if (alturaAnimada - 500 <scrollTop) {
+		if (alturaAnimada - 400 <scrollTop) {
 			animado[i].style.opacity=1;
 			// animado[paloma].classList.Add("delado");
 			paloma.style.opacity=1;
