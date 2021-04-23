@@ -472,16 +472,19 @@
       <form id="formulario">
 
         <label for="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">Nombre Completo:</label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" title="Nombre solo acepta letras y espacios en blanco" required="">
         <label for="tel">Teléfono de contacto:</label>
-        <input type="text" name="tel" id="tel">
+        <input type="text" name="tel" id="tel" title="El espacio solo acepta números" required="">
         <label for="mens">Mensaje:</label>
-        <textarea name="men" id="mens"></textarea>
+        <textarea name="men" id="mens" title="El mensaje es requerido" required=""></textarea>
 
         <input type="submit" name="enviar" id="enviar">
       </form>
-
+<div class="contact-form-response none" >
+  <p>los datos han sido enviados</p>
+</div>
       <div  id="info">
+
       </div>
     </section>
 
@@ -534,6 +537,7 @@
 <script src="js/menu-desktop.js"></script>
 <script src="js/wai-aria.js"></script>
 <script src="js/animacion.js"></script>
+<script src="js/validacion.js"></script>
 <!--<script src="js/actions_spy.js"></script>-->
 <!--<script src="js/slider.js"></script>-->
 

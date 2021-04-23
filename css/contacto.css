@@ -84,6 +84,46 @@ font-size: 50px;
 font-family: 'Dancing Script', cursive;
 
 }
+
+/*-----contact form-------*/
+textarea{
+	resize: none;
+}
+.contact-form-response{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	color: green;
+
+}
+#formulario input[required]:valid{
+	border: thin solid green;
+}
+#formulario input[required]:invalid{
+	border: thin solid red;
+}
+.contact-form-error{
+	margin-top: -1rem;
+	font-size: 80%;
+	background-color: red;
+	color: white;
+	transition: all 800ms ease;
+}
+.contact-form-error.is-active{
+	display: block;
+	animation: mostrar 1s 1 normal 0s ease-out both;
+
+}
+@keyframes mostrar{
+	0%{
+		visibility: hidden;
+		opacity: 0;
+	}
+	100%{
+		visibility: visible;
+		opacity: 1
+	}
+}
 /*--------------812px mediaQuery------------*/
 
 
