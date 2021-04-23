@@ -47,10 +47,14 @@ textarea{
 	font-size: 25px;
 	border-radius: 20%;
 }
-#info{
+#respuesta{
 	color: black;
-	position: absolute;
+	position: relative;
+	margin-top: -80px;
+	z-index: 25;
+	font-size: 15px;
 }
+
 .alert-g{
 	background-color: green;
 	color: white;
@@ -89,41 +93,7 @@ font-family: 'Dancing Script', cursive;
 textarea{
 	resize: none;
 }
-.contact-form-response{
-	font-size: 1.5rem;
-	font-weight: bold;
-	text-align: center;
-	color: green;
 
-}
-#formulario input[required]:valid{
-	border: thin solid green;
-}
-#formulario input[required]:invalid{
-	border: thin solid red;
-}
-.contact-form-error{
-	margin-top: -1rem;
-	font-size: 80%;
-	background-color: red;
-	color: white;
-	transition: all 800ms ease;
-}
-.contact-form-error.is-active{
-	display: block;
-	animation: mostrar 1s 1 normal 0s ease-out both;
-
-}
-@keyframes mostrar{
-	0%{
-		visibility: hidden;
-		opacity: 0;
-	}
-	100%{
-		visibility: visible;
-		opacity: 1
-	}
-}
 /*--------------812px mediaQuery------------*/
 
 
@@ -170,6 +140,7 @@ left: 30%;
 @media  (min-width: 1080px) {
 	.cont-img{
 		display: none;
+
 	}
 #titulo_contacto{
 	color: black!important;
