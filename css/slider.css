@@ -84,11 +84,14 @@
     margin-top: 12%;
     }
 }*/
+
 .slider{
     position: relative;
     width: 80%;
     margin: 1rem auto;
     text-align: center;
+ 
+
 
     
 
@@ -128,6 +131,7 @@
     font-weight: bold;
 
 }
+
 .slider a{
     display: block;
     width: 4rem;
@@ -135,12 +139,16 @@
     border-radius: 50%;
     border: thin solid #000;
     text-decoration:none;
-    background-color: #fff;
-    color: #000;
+    background-color:#F0D66E ;
+    color: #804000;
     transition: all 0.3s ease; 
+  
+
 }
+
 .slider a:hover{
-    color: #4d4d4d;
+    background-color:transparent;
+    color: 
 }
 
 

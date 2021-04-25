@@ -58,7 +58,7 @@ l=0;
 l++;
 console.log(j);
 console.log(l);
-},7000);
+},8000);
 
 
 });
