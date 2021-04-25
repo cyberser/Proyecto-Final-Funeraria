@@ -1,29 +1,64 @@
-let slider = document.querySelector(".slider-contenedor")
-let sliderIndividual = document.querySelectorAll(".contenido-slider")
-let contador = 1;
-let width = sliderIndividual[0].clientWidth;
-let intervalo = 3000;
+window.addEventListener('load', (event) => {
+var l=0;
+const d= document;
 
-window.addEventListener("resize", function(){
-    width = sliderIndividual[0].clientWidth;
-})
+    
+    const $siguiente=d.querySelector(".next"),
+    $anterior=d.querySelector(".prev"),
+    $slides=d.querySelectorAll(".slider-slide");
 
+    let i=0;
+    
+    d.addEventListener("click", (e)=>{
+        if (e.target===$anterior){
+            e.preventDefault();
+            $slides[i].classList.remove("active");
+            i--;
+
+            if (i<0) {
+                i=$slides.length-1;
+            }
+
+            $slides[i].classList.add("active");
+
+        }
+
+
+        if (e.target===$siguiente){
+           
+            e.preventDefault();
+            $slides[i].classList.remove("active");
+            i++;
+
+            if (i>=$slides.length) {
+                i=0;
+            }
+
+    $slides[i].classList.add("active");
+
+        }
+        
+    });
+   
 setInterval(function(){
-    slides();
-},intervalo);
+   const $slides2=d.querySelectorAll(".slider-slide");
+var j= $slides2.length;
 
+ for(var i=0; i<j; i++){
+ $slides2[i].classList.remove("active");
+ }
+if (l<j) {
+ $slides2[l].classList.add("active");
+    
+}else{
+l=0;
+    $slides2[l].classList.add("active");
 
-
-function slides(){
-    slider.style.transform = "translate("+(-width*contador)+"px)";
-    slider.style.transition = "transform .8s";
-    contador++;
-
-    if(contador == sliderIndividual.length){
-        setTimeout(function(){
-            slider.style.transform = "translate(0px)";
-            slider.style.transition = "transform 0s";
-            contador=1;
-        },8000)
-    }
 }
+l++;
+console.log(j);
+console.log(l);
+},7000);
+
+
+});
