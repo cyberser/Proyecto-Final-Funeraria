@@ -4,8 +4,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
-
 }
 body{
 	min-width: 375px;
@@ -59,4 +57,10 @@ h2{
 .ave{
 	opacity: 0;
 	transition:all 2s;
+}
+
+/*---------------servicios.html-----*/
+.contenido h1{
+	  font-family: 'Dancing Script', cursive !important;
+	  font-size: 40px: 
 }

@@ -29,23 +29,7 @@ h3{
   display: inline-block;
   position: relative;
 }
-.lop::before,.lop::after{
-  content: "";
-  position:absolute;
-  width: 45px;
-  height: 3px;
-  color: black;
-  background-color:black;
-  top:3em;
-}
-.lop::after{
-  left: -50px;
-  top:35px;
-}
-.lop::before{
-  right: -53px;
-  top:35px;
-}
+
 .tit{
   color: black;
   padding: 20px;
@@ -92,12 +76,14 @@ h3{
   }
   #info{
     display: none;
+
   }
   #info2{
     display: block;
     width: 40%;
   position: relative;
     margin-top: 80px;
+
   }
    .tit2{
   color: white;
@@ -122,7 +108,7 @@ h3{
   #info{
   position: absolute;
   display: inline-block;
-  top: 7265px;
+  top: 7150px;
   left: 120px;
   z-index: 1;
   display: block;

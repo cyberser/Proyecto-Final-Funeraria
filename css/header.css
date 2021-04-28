@@ -87,7 +87,7 @@ display: flex;
   
   z-index: 999;
   transition: transform 0.3s ease;
-  transform: translate(0,-100%);
+  transform: translate(0,-120%);
 }
 #menu li:hover{
   background-color:#804000;
@@ -152,17 +152,17 @@ animation: girar 1.5s linear infinite;
 
 }
 .caja-texto{
-  margin: auto;
+
  
  width: 100%;
  height: 122px;
  margin: auto;
-
+margin-top: 28px;
 }
 .caja-texto p{
 padding: 2px;
 font-size: 20px;
-margin-top:30px;
+
 
 
 }

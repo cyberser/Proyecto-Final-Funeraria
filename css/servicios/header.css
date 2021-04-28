@@ -1,91 +1,23 @@
-/*.caja{
-  width: 375px;
-  height: 216px;
-  background-color: #FFFFCC;
-  position: relative;
-  color: black;
-}
-.caja-texto{
-  position: absolute;
- margin: 30% 60px 0 60px;
- text-align: center;
-}
-.caja-texto p{
-  padding: 2px;
-  font-size: 16px;
-}
-.logo{
-  display: flex;
-  justify-content: center;
-  
-}
-.logo img{
-  width: 195px;
-  height: 107px;
-  position: absolute;
-}
-#menu li a{
-  text-decoration: none;
-  color: white;
-  padding: 1.4rem;
-  border-bottom: 1px solid white;
-  width: 100%;
-}
-#menu li{
-  width: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  
-}
-#menu{
-  width: 100%;
-  height: 400px;
-  top: 0;
- position: fixed;
-  background-color:black;
-  
-  z-index: 999;
-  transition: transform 0.3s ease;
-  transform: translate(0,-100%);
-}
-#menu li:hover{
-  background-color:#704C2A;
-}
-#contenedor-menu{
-  width: 100%;
-  height: 53px;
-  background-color: #704C2A;
-  margin-top: 200px;
- 
-  display: inline-flex;
-  justify-content: flex-end;
-}
-.panel-btn{
-  position: fixed;
-  z-index: 999;
-}
-#menu.active{
-  transform: translate(0,0);
-}*/
 
 .caja{
-  width: 375px;
+  min-width: auto;
   height: 220px;
   background-color: #FFFFCC;
   position: relative;
   color: black;
 }
 .caja-texto{
-  position: absolute;
- margin: 30% 80px 0 80px;
- text-align: center;
+position: absolute;
+width: 100%;
+top: 110px;
+text-align: center;
+
 }
+
 .caja-texto p{
 padding: 2px;
 font-size: 16px;
+margin: auto;
 }
 .logo{
   display: flex;
@@ -100,7 +32,7 @@ font-size: 16px;
 #menu li a{
   text-decoration: none;
   color: white;
-  padding: 1.4rem;
+  padding: 3rem;
   border-bottom: 1px solid white;
   width: 100%;
 }
@@ -115,7 +47,7 @@ font-size: 16px;
 }
 #menu{
   width: 100%;
-  height: 400px;
+  height: 1000px;
   top: 0;
   position: fixed;
   background-color:black;
@@ -142,7 +74,7 @@ font-size: 16px;
 }
 .panel-btn{
   position: fixed;
-  z-index: 999;
+  z-index: 9999999;
 }
 #menu.active{
   transform: translate(0,0);
@@ -161,17 +93,16 @@ margin-left: -8px;
 }
 
 
-@media  (min-width: 812px){
+@media screen (min-width: 812px){
 
   .caja{
-    width:812px;
+    width: 100%;
     height: 253px;
   }
 
   .caja-texto{
-   margin-top: 145px;
-   margin-left: 300px;
-   margin-bottom: 5px; 
+   margin-top: 50px;
+ 
 
   }
 
@@ -188,25 +119,11 @@ margin-left: -8px;
   }
 
   #menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 1.4rem;
-    border-bottom: 1px solid white;
-    width: 100%;
-  }
-
-  #menu li{
-    width: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+ margin-left: 43%;
     text-align: center;
   }
-  #menu li:hover{
-    background-color:brown;
-  }
 
+ 
   #contenedor-menu{
   margin-top: 250px;
  
@@ -215,3 +132,6 @@ margin-left: -8px;
 
 }
 
+@media screen (min-width: 1080px){
+
+}

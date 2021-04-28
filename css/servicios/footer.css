@@ -10,7 +10,7 @@
 }*/
 
 footer{
-	width: 375px;
+	width: auto;
 	height: 70px;
 	background-color: black;
 	color: white;
@@ -22,7 +22,7 @@ footer{
 
 @media  (min-width: 812px) {
 footer{
-	width: 812px;
+	width: auto;
 	height: 70px;
 	position: relative;
 	top: 0px;

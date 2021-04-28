@@ -58,7 +58,7 @@
 
 	.cubo{
 		width: 50%;
-		margin-left: 25%;
+		
 
 	
 	}
@@ -73,4 +73,12 @@
 		height: 250px;
 	}
 
+}
+@media  (min-width: 812px){
+	.cubo{
+		width: 50%;
+		margin: auto;
+
+	
+	}
 }

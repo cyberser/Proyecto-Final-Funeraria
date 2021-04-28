@@ -42,10 +42,17 @@ textarea{
 
 }
 #enviar{
-	width: 188px;
-	height: 78px;
-	font-size: 25px;
-	border-radius: 20%;
+	width: 50%;
+	height: 70px;
+	 padding: 6px 30px;
+  border-radius: 40px;
+  border: 2px solid #ccc;
+  font-size: 25px;
+}
+ #enviar:hover{
+	color: white;
+	background-color: #008C81;
+	transition: all 0.5s ease;
 }
 #respuesta{
 	color: black;
@@ -108,8 +115,11 @@ textarea{
 		width: 100%;
 		position: relative;
 		margin-top: 100px;
-
+height: 1000px;
 		
+	}
+	#contacto p{
+		margin-top: 0;
 	}
 
 	#titulo_contacto{

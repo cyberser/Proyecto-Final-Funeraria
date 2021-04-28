@@ -1,19 +1,23 @@
 
 .caja{
-  width: 375px;
+  min-width: 375px;
   height: 216px;
   background-color: black;
   position: relative;
   color: white;
 }
 .caja-texto{
-  position: absolute;
- margin: 30% 60px 0 60px;
- text-align: center;
+position: absolute;
+width: 100%;
+top: 110px;
+text-align: center;
+
 }
+
 .caja-texto p{
 padding: 2px;
 font-size: 16px;
+margin: auto;
 }
 .logo{
   display: flex;
@@ -28,7 +32,7 @@ font-size: 16px;
 #menu li a{
   text-decoration: none;
   color: white;
-  padding: 1.4rem;
+  padding: 1rem;
   border-bottom: 1px solid white;
   width: 100%;
 }
@@ -43,17 +47,30 @@ font-size: 16px;
 }
 #menu{
   width: 100%;
-  height: 400px;
+  height: 100%;
   top: 0;
  position: fixed;
-  background-color:black;
-  
-  z-index: 999;
+background-color:#443F3B;
+ z-index: 999;
   transition: transform 0.3s ease;
   transform: translate(0,-100%);
+
+
+
+}
+#menu li a{
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  font-size: 20px;
+  padding: 3rem;
 }
 #menu li:hover{
-  background-color:brown;
+  background-color:rgba(255,255,255,0.2);
 }
 #contenedor-menu{
   width: 100%;
@@ -67,8 +84,14 @@ font-size: 16px;
 #menu.active{
   transform: translate(0,0);
 }
+#descrip-menu{
+  display: none;
+}
+#contenido{
+   min-width: 375px;
+}
 
-/*.boton{
+.boton{
 background: #443F3B;
 width: 50px;
 height: 50px;
@@ -76,18 +99,26 @@ border-radius: 25%;
 padding: 13px;
 margin-top: -14px;
 
+
 }
 .hamburger-box{
-margin-left: -8px;
+  margin-left: -8px;
+  color: white;
+
+  
 }
 
 .panel-btn{
   position: fixed;
-  z-index: 999; 
-} */
+  z-index: 999999; 
+ 
+} 
 
 
-
+.hamburger{
+  color: white;
+  background-color: white;
+}
 @media (min-width: 812px){
 
   .caja{
@@ -96,16 +127,14 @@ margin-left: -8px;
 
   }
 
-  .caja-texto{
-   margin-top: 145px;
-   margin-left: 285px;
-   margin-bottom: 5px; 
+.caja-texto{
+top: 155px;
+}
 
-  }
 
   #menu{
     width: 100%;
-    height: 450px;
+ 
    
   }
   #menu li a{
@@ -136,11 +165,9 @@ margin-left: -8px;
 
   }
 
-  .caja-texto{
-   margin-top: 165px;
-   margin-left: 555px;
- 
-  }
+ .caja-texto{
+top: 175px;
+}
 
 #contenedor-menu{
   margin-top: 260px;

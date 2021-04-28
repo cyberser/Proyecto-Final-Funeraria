@@ -25,13 +25,7 @@ margin: auto;
 .mop{
   
   height: 76px;
-
-  /*width: 287px;
-  background-color: black;
-  color:white;
-  border-radius: 20%;*/
-
-  padding: 5px;
+ padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +34,7 @@ margin: auto;
   background-color:#804000; 
   width: 80%;
 
-  /*background-color: #704C2A;*/
+ 
 
 }
 .mop:hover{

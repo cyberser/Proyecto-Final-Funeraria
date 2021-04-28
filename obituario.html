@@ -23,6 +23,14 @@
 
 
   <style>@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');</style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+  </style>
+
 
   <script type="text/javascript"></script>
 
@@ -37,67 +45,70 @@
      <div class="logo">
        <img src="img/transparente-blanco.png" alt="Imagen de un arbol, logo de la Funeraria El Reencuentro">
      </div><!----final de logo------>
-
      <div class="caja-texto">
-      <p>Funeraria El Reencuentro</p>
-      <p>Funeraria Juan Pablo II</p>
-      <p>Funeraria El Reencuentro Rivas</p>
+      <p tabindex="0">Funeraria El Reencuentro</p>
+      <p tabindex="0">Funeraria Juan Pablo II</p>
+      <p tabindex="0">Funeraria El Reencuentro Rivas</p>
     </div><!----final de caja-texto------>
 
     <div id="contenedor-menu">
-     <button class="panel-btn hamburger hamburger--vortex " type="button"  id="panel-btn2">
+     <button class="panel-btn hamburger hamburger--vortex " type="button"  id="panel-btn2" aria-describedby="descrip-menu">
+       <div id="descrip-menu">Este es el botón de navegación, continuar para escuchar el menú</div>
+      <div class="boton">
        <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
-    </button>
+    </div>
+  </button>
 
 
-    <section id="menu">
-      <nav>
-        <ul>
-          <li><a href="#caja">Inicio</a></li>
-          <li><a href="index.html#somos">Quienes Somos</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="index.html#costa-rica-titulo">Sedes</a></li>
-          <li><a href="index.html#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </section><!----final de menu------>
+  <section id="menu">
+    <nav>
+      <ul>
+        <li><a href="#caja" tabindex="0">Inicio</a></li>
+        <li><a href="index.html#somos" tabindex="0">Quienes Somos</a></li>
+        <li><a href="index.html#servicios" tabindex="0">Servicios</a></li>
+        <li><a href="index.html#costa-rica-titulo" tabindex="0">Sedes</a></li>
+        <li><a href="index.html#contacto" tabindex="0">Contacto</a></li>
+      </ul>
+    </nav>
+  </section><!----final de menu------>
+  
 
-  </div><!--final caja--> 
-  <main>
-    <content>
-      <section id="contenido">
-       <h1>Obituario</h1>
-       <div class=" ob">
-         <img src="img/imagen.jpg" alt="">
-         <img src="img/imagen.jpg" alt="">
-         <img src="img/imagen.jpg" alt="">
-         <img src="img/imagen.jpg" alt="">
-
-
-       </div>
-       <img src="img/linea.png" alt="" class="linea">
-
-     </section>
-
-  <!-- <div class="icon">
- <i class="fab fa-facebook-square"><a href="#"  target="_blank"></a></i> 
-  <i class="fab fa-whatsapp-square"><a href="#" target="_blank" ></a></i>
-</div>-->
-<div class="icon">
-
- <div class="iconos">
-  <a href="https://www.facebook.com/Funeraria-El-Reencuentro-371920616190201" class="icon" target="_blank"><i class="fab fa-facebook-square"></i></a>
-
-  <a href="https://api.whatsapp.com/send?phone=+50689472268&text=Funeraria%20El%20Reencuentro,%20Bienvenido(a)." target="_blank" class="icon"> <i class="fab fa-whatsapp-square" id="face"></i> </a>
+</div><!--final caja--> 
 </div>
+<main>
+  <content>
+    <section id="contenido">
+     <h1 tabindex="0">Obituario</h1>
+     <div class=" ob">
+       <img src="img/imagen.jpg" alt="">
+       <img src="img/imagen.jpg" alt="">
+       <img src="img/imagen.jpg" alt="">
+       <img src="img/imagen.jpg" alt="">
 
-</div>
 
-<footer>
-  <p>Funeraria el Reencuentro © Melanye/Sergio</p>
-</footer>
+     </div>
+
+
+   </section>
+
+   <div class="icon">
+
+     <div class="iconos">
+      <a href="https://www.facebook.com/Funeraria-El-Reencuentro-371920616190201" class="icon" target="_blank" aria-describedby="Facebook"><i class="fab fa-facebook-square"  title="facebook"></i></a>
+
+      <a href="https://api.whatsapp.com/send?phone=+50689472268&text=Funeraria%20El%20Reencuentro,%20Bienvenido(a)." target="_blank" class="icon" aria-describedby="Whatsapp" title="whatsapp"> <i class="fab fa-whatsapp-square" id="face"></i> </a>
+    </div>
+
+  </div>
+  <div id="redesSociales">
+        <p id="Facebook">Este enlace abre una pestaña a Facebook</p>
+        <p id="Whatsapp">Este enlace abre una pestaña a Whatsapp</p>
+      </div>
+  <footer>
+    <p>Funeraria el Reencuentro © Melanye/Sergio</p>
+  </footer>
 </content>
 </main>
 

@@ -7,7 +7,7 @@
   height: 100%;
   padding-bottom: 45px;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 75px;
 }
 .seccion-tarjetas h1{
   
@@ -58,16 +58,12 @@ h1::after{
 h1::before{
   right: -40px;
 }
-
-
+h1::before,h1::after{
+    display: none;
+}
 h2{
   
   height: 76px;
-
-  /*width: 287px;
-  background-color: black;
-  color:white;
-  border-radius: 20%;*/
 
   padding: 5px;
   display: flex;
@@ -96,6 +92,9 @@ h2{
  right: 30px;
  margin-bottom: 80px;
 }
+.contenedor_info h2, p, li {
+    padding: 0!important;
+}
 .tarjeta{
   position: absolute;
   width: 312px;
@@ -108,7 +107,7 @@ h2{
   box-shadow:0px 15px 15px -5px rgba(0,0,0,0.4);
 
   text-align: center;
-  background: black;
+  background: #34495E;
  
    
 }
@@ -269,6 +268,7 @@ text-align: center;
 
 
 @media  (min-width: 812px) {
+
 .contenido h2{
 margin: auto;
 margin-top: 15px;
@@ -338,12 +338,12 @@ figure{
  margin-bottom: 50px;
 }
 .tres p{
-  font-size: 25px;
+  font-size: 20px;
 }
 .grid p{
  margin-top: 45px;
  margin-bottom: 15px;
- font-size: 25px;
+ font-size: 20px;
 
 }
 #titulo-sedes{
@@ -385,10 +385,10 @@ h1::before{
 h2{
   width: 287px;
   height: 76px;
-  background-color: black;
+  background-color: #804000;
   color:white;
   padding: 5px;
-  border-radius: 20%;
+
   display: flex;
   justify-content: center;
   align-items: center;

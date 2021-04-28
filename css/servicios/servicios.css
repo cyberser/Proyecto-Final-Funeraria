@@ -14,6 +14,9 @@ height: 510px;
   margin-bottom:45px;
   text-align: center;
   color: black;
+  font-size: 40px;
+    font-family: 'Dancing Script', cursive !important;
+}
   
 }
 .contenido p{
@@ -53,8 +56,8 @@ h1::before{
   right: -40px;
 }
 .contratos{
-  width: 100%;
-  /*height: 1080px;*/
+  width: auto;
+  
   background-color: white;
   text-align: center;
   padding-bottom: 50px;
@@ -62,9 +65,13 @@ h1::before{
 
 
 /*--------mas información--------*/
-.contratos li{
-  text-decoration: none;
-  margin-top: 50px;
+
+.contenedor_info{
+  margin-left: 5%;
+   
+}
+.contenedor_info h2,p,li{
+padding: 15px;
 }
 
 .mover{
@@ -76,7 +83,7 @@ h1::before{
   .contenido {
     text-align: center;
     height: 610px;
-    width: 812px;
+    width: 100%;
   }
 
   .contenido h1{
@@ -86,7 +93,7 @@ h1::before{
     margin-top: 15px;
     margin-bottom:55px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .contenido img{
