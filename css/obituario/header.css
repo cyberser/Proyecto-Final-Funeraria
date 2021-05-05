@@ -119,6 +119,12 @@ margin-top: -14px;
   color: white;
   background-color: white;
 }
+
+
+
+/*--------------812px mediaQuery------------*/
+
+
 @media (min-width: 812px){
 
   .caja{
@@ -155,6 +161,11 @@ top: 155px;
 }
 
 }
+
+
+
+
+/*--------------1080px mediaQuery------------*/
 
 
 @media (min-width: 1080px){

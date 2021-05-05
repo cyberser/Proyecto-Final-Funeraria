@@ -11,6 +11,9 @@ footer{
 }
 
 
+
+/*--------------812px mediaQuery------------*/
+
 @media  (min-width: 812px) {
 footer{
 	width: 100%;
@@ -21,6 +24,9 @@ footer{
 }
 
 }
+
+
+/*--------------1080px mediaQuery------------*/
 
 @media  (min-width: 1080px) {
 	footer{

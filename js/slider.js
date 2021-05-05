@@ -56,8 +56,8 @@ l=0;
 
 }
 l++;
-console.log(j);
-console.log(l);
+// console.log(j);
+// console.log(l);
 },8000);
 
 

@@ -35,6 +35,11 @@ font-size: 55px;
   height: 32px;
 }
 
+
+
+
+/*--------------812px mediaQuery------------*/
+
 @media (min-width: 812px){
 
   .linea{
@@ -44,6 +49,9 @@ font-size: 55px;
   
 
 }
+
+
+/*--------------1080px mediaQuery------------*/
 
 @media (min-width: 1080px){
 

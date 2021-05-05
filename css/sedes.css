@@ -18,8 +18,8 @@
   color: black;
   font-size: 30px;
   
- font-size: 40px;
- font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
 
 }
 .seccion-tarjetas p{
@@ -28,6 +28,7 @@
  font-size: 25px;
 
 }
+/*N=titulo Nicaragua*/
 .N{
   width:269px;
   text-align: center;
@@ -59,7 +60,7 @@ h1::before{
   right: -40px;
 }
 h1::before,h1::after{
-    display: none;
+  display: none;
 }
 h2{
   
@@ -74,11 +75,11 @@ h2{
 
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
- background-color:#804000; 
+  background-color:#804000; 
   color:white;
   width: 93%;
 
-  /*background-color: #704C2A;*/
+
 
 }
 .contenido p{
@@ -89,11 +90,11 @@ h2{
   width: 312px;
   height: 280px;
   margin: auto;
- right: 30px;
- margin-bottom: 80px;
+  right: 30px;
+  margin-bottom: 80px;
 }
 .contenedor_info h2, p, li {
-    padding: 0!important;
+  padding: 0!important;
 }
 .tarjeta{
   position: absolute;
@@ -108,11 +109,11 @@ h2{
 
   text-align: center;
   background: #34495E;
- 
-   
+  
+  
 }
 .tarjeta:hover{
-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   text-align: center;
   
 
@@ -157,41 +158,44 @@ transform: rotateY(180deg);
 figure{
   display: none;
 }
-  .sedes-desktop{
-    display: none;
+.sedes-desktop{
+  display: none;
 
-  }
-  #costa-rica-titulo{
-      text-align: center;
+}
+#costa-rica-titulo{
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  }
-  #btn-servicios{
-     text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  }
-  #btn-obi{
-     text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  }
+}
+#btn-servicios{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+#btn-obi{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+
+
+
 /*---------------tarjetas 1080-----------*/
 
 
 .grid{
   display: grid;
   
-grid-template-columns: repeat(2,auto) ;
-grid-template-areas: "uno dos";
-justify-content: space-around;
-text-align: center;
+  grid-template-columns: repeat(2,auto) ;
+  grid-template-areas: "uno dos";
+  justify-content: space-around;
+  text-align: center;
 }
 
 .tres{
@@ -262,6 +266,11 @@ text-align: center;
   max-width: 220px;
   margin: auto;
 }
+/*---------------Final tarjetas 1080-----------*/
+
+
+
+
 
 
 /*--------------812px mediaQuery------------*/
@@ -269,75 +278,77 @@ text-align: center;
 
 @media  (min-width: 812px) {
 
-.contenido h2{
-margin: auto;
-margin-top: 15px;
-}
-.contenedor-tarjeta{
-  margin: auto;
-  left: -30px;
-  margin-bottom: 80px;
+  .contenido h2{
+    margin: auto;
+    margin-top: 15px;
+  }
+  .contenedor-tarjeta{
+    margin: auto;
+    left: -30px;
+    margin-bottom: 80px;
+  }
+
+
+  h2{width: 96.3%;}
+
+
+
+  .nic{
+    margin: auto;
+    margin-top: 60px;
+  }
+  .seccion-tarjetas{
+    margin-top: 30px;
+  }
+  figure{
+    display: none;
+  }
+  #costa-rica-titulo{
+    margin: auto;
+    position: relative;
+  }
+  .P-trasera{
+    right: 30px;
+    top:-25px;
+  }
+  .P-trasera1{
+
+    right: 30px;
+    top: -2px;
+  }
+
+
 }
 
 
-h2{width: 96.3%;}
 
 
 
-.nic{
-  margin: auto;
-  margin-top: 60px;
-}
-.seccion-tarjetas{
-  margin-top: 30px;
-}
-figure{
-  display: none;
-}
-#costa-rica-titulo{
-  margin: auto;
-  position: relative;
-}
-.P-trasera{
-  right: 30px;
-  top:-25px;
-}
-.P-trasera1{
-
-  right: 30px;
-  top: -2px;
-}
-
-
-}
 /*--------------1080px mediaQuery------------*/
 
 @media  (min-width: 1080px) {
-figure{
-  display: block;
-}
-.seccion-tarjetas{
-  display: none;
-}
-.sedes-desktop{
-  display: block;
-}
-.sedes-desktop h1{
-  margin-left: 540px;
-  width: 300px;
-  height: 58px;
-  margin-top: 80px;
-  margin-bottom:25px;
-  color: black;
-
-
-
-}
-.sedes-desktop h2{
- margin-top: 25px;
- margin-bottom: 50px;
-}
-.tres p{
+  figure{
+    display: block;
+  }
+  .seccion-tarjetas{
+    display: none;
+  }
+  .sedes-desktop{
+    display: block;
+  }
+  .sedes-desktop h1{
+    margin-left: 540px;
+    width: 300px;
+    height: 58px;
+    margin-top: 80px;
+    margin-bottom:25px;
+    color: black;
+  }
+  .sedes-desktop h2{
+   margin-top: 25px;
+   margin-bottom: 50px;
+ }
+ .tres p{
   font-size: 20px;
 }
 .grid p{
@@ -347,9 +358,9 @@ figure{
 
 }
 #titulo-sedes{
-    width: 100%;
+  width: 100%;
   height: 80px;
-   font-size: 90px;
+  font-size: 90px;
   font-family: 'Dancing Script', cursive;
   background-color:#804000;
   text-align: center;

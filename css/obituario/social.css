@@ -1,5 +1,3 @@
-
-
 .icon {
   width: 100%;
   height: 150px;
@@ -7,10 +5,7 @@
   justify-content: space-around;
   margin: auto;
   font-size: 80px;
-  background: black;
-
- 
- 
+  background: black; 
 }
 .iconos{
   margin-top: 50px;

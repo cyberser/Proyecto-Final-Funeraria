@@ -1,3 +1,34 @@
+/*Sección del loader*/
+#contenedor_carga{
+  background-color: rgba(250,240,245,0.9);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  transition: all 1s ease;
+  z-index: 10000;
+}
+#carga{
+  border: 15px solid #ccc;
+  border-top-color: #F4226A;
+  border-top-style:groove; 
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: girar 1.5s linear infinite;
+}
+@keyframes girar{
+  from{ transform: rotate(0deg); }
+  to{ transform: rotate(360deg); }
+}
+
+
+
 
 .caja{
   width: 100%;
@@ -9,28 +40,28 @@
 .caja-texto{
   position: absolute;
 
- margin: auto;
- text-align: center;
- top: 110px;
+  margin: auto;
+  text-align: center;
+  top: 110px;
 }
 .caja-texto p{
-padding: 2px;
-font-size: 16px;
-position: relative;
-margin: auto;
+  padding: 2px;
+  font-size: 16px;
+  position: relative;
+  margin: auto;
 
 }
 .logo{
   display: flex;
   justify-content: center;
-margin: auto;
+  margin: auto;
   
 }
 .logo img{
   width: 195px;
   height: 107px;
   position: absolute;
-margin: auto;
+  margin: auto;
 
 }
 #menu li a{
@@ -42,17 +73,17 @@ margin: auto;
 }
 
 .boton{
-background: #804000;
-width: 50px;
-height: 50px;
-border-radius: 25%;
-padding: 15px;
-margin-top: -15px;
+  background: #804000;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  padding: 15px;
+  margin-top: -15px;
 
 }
 
 .hamburger-box{
-margin-left: -10px;
+  margin-left: -10px;
 }
 .conte{
   width: 100%;
@@ -61,9 +92,6 @@ margin-left: -10px;
   justify-content: center;
   align-items: center;
   position: absolute;
-
-
-
 }
 #descrip-menu{
   display: none;
@@ -71,7 +99,7 @@ margin-left: -10px;
 
 #menu li{
   width: inherit;
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -82,7 +110,7 @@ display: flex;
   width: 100%;
   height: 100%;
   top: 0;
- position: fixed;
+  position: fixed;
   background-color:black;
   
   z-index: 999;
@@ -107,36 +135,13 @@ display: flex;
 }
 
 
-#contenedor_carga{
-  background-color: rgba(250,240,245,0.9);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  transition: all 1s ease;
-  z-index: 10000;
-}
-#carga{
-  border: 15px solid #ccc;
-  border-top-color: #F4226A;
-  border-top-style:groove; 
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-animation: girar 1.5s linear infinite;
-}
-@keyframes girar{
-  from{ transform: rotate(0deg); }
-  to{ transform: rotate(360deg); }
-}
 #navbar{
   display: none;
 }
+
+
+
+
 
 
 /*--------------812px mediaQuery------------*/
@@ -145,130 +150,119 @@ animation: girar 1.5s linear infinite;
 
 @media  (min-width: 812px) {
   .caja{
-  width: 100%;
-  height: 286px;
-  background-color: #FFFFCC;
-  position: relative;
+    width: 100%;
+    height: 286px;
+    background-color: #FFFFCC;
+    position: relative;
+  }
+  .caja-texto{
+    width: 100%;
+    height: 122px;
+    margin: auto;
+    margin-top: 28px;
+  }
+  .caja-texto p{
+    padding: 2px;
+    font-size: 20px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .logo img{
+    width: 260px;
+    height: 147px;
+    position: absolute;
+  }
+  #menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.6rem;
+    border-bottom: 1px solid white;
+    width: 100%;
 
-}
-.caja-texto{
+  }
+  #menu li{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  #menu{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background-color:black;
 
- 
- width: 100%;
- height: 122px;
- margin: auto;
-margin-top: 28px;
-}
-.caja-texto p{
-padding: 2px;
-font-size: 20px;
+    z-index: 999;
+    transition: transform 0.3s ease;
+    transform: translate(0,-100%);
 
+  }
+  #menu li:hover{
+    background-color:brown;
+  }
+  #contenedor-menu{
+    width: 100%;
+    height: 60px;
+    background-color:#804000;
+    margin-top: 240px;
 
-
-}
-.logo{
-  display: flex;
-  justify-content: center;
-  
-}
-.logo img{
-  width: 260px;
-  height: 147px;
-  position: absolute;
-
-
-
-}
-#menu li a{
-  text-decoration: none;
-  color: white;
-  padding: 1.6rem;
-  border-bottom: 1px solid white;
-  width: 100%;
-
-}
-#menu li{
-  width: inherit;
-display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  
-  
-}
-#menu{
-  width: 100%;
-  height: 100%;
-  top: 0;
-  position: fixed;
-  background-color:black;
-
-  z-index: 999;
-  transition: transform 0.3s ease;
-  transform: translate(0,-100%);
-
-}
-#menu li:hover{
-  background-color:brown;
-}
-#contenedor-menu{
-  width: 100%;
-  height: 60px;
-   background-color:#804000;
-  margin-top: 240px;
-
-  display: inline-flex;
-  justify-content: flex-end;
-  
-}
+    display: inline-flex;
+    justify-content: flex-end;
+    
+  }
 }
 
 
+
+
+
+/*--------------1080px mediaQuery------------*/
 
 @media  (min-width: 1080px) {
-.navegacion a{
-text-decoration: none;
-color: white;
-display:inline-block;
-left: 20%;
-bottom: 85px;
-position: relative;
-font-size: 20px;
-padding: 40px;
+  .navegacion a{
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    left: 20%;
+    bottom: 85px;
+    position: relative;
+    font-size: 20px;
+    padding: 40px;
 
-}
-.caja{
-  display: none;
-}
-#prueba{
-  width: 100%;
- position: fixed;
+  }
+  .caja{
+    display: none;
+  }
+  #prueba{
+    width: 100%;
+    position: fixed;
     top:0;
     transition: top 1s ease;
-   z-index: 1000000;
-}
-#navbar{
-  position: absolute;
+    z-index: 1000000;
+  }
+  #navbar{
+    position: absolute;
     background: #34495e;
     width: 100%;
     height:100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    
-
-
-}
-#navbar img{
-  width: 150px;
-  height: 80px;
-position: relative;
-left: 25px;
-top: 11px;
-}
-#navbar{
-  display: block;
-}
+  }
+  #navbar img{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    left: 25px;
+    top: 11px;
+  }
+  #navbar{
+    display: block;
+  }
 
