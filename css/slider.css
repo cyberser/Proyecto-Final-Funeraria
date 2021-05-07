@@ -33,11 +33,12 @@
 .slider-btns{
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 35%;
     display: flex;
     justify-content: space-between;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
+
 
 }
 
@@ -45,11 +46,11 @@
     display: block;
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
-    border: thin solid #000;
+  /*  border-radius: 50%;
+    border: thin solid #000;*/
     text-decoration:none;
     background-color:transparent; ;
-    color:black;
+    color:#34495E;
     transition: all 0.3s ease; 
   
 
@@ -57,7 +58,9 @@
 
 .slider a:hover{
   
-    color:#804000; 
+    /*color:#804000;*/
+    color: rgba(0,0,0,0.6);
+
 }
 
 

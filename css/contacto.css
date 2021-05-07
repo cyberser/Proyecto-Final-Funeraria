@@ -44,12 +44,12 @@ textarea{
 #enviar{
 	width: 50%;
 	height: 70px;
-	 padding: 6px 30px;
-  border-radius: 40px;
-  border: 2px solid #ccc;
-  font-size: 25px;
+	padding: 6px 30px;
+	border-radius: 40px;
+	border: 2px solid #ccc;
+	font-size: 25px;
 }
- #enviar:hover{
+#enviar:hover{
 	color: white;
 	background-color: #008C81;
 	transition: all 0.5s ease;
@@ -84,15 +84,15 @@ textarea{
 
 }
 #titulo_contacto::after{
-display: none;
+	display: none;
 }
 #titulo_contacto::before{
-display: none;
+	display: none;
 }
 #titulo_contacto{
-color: white;
-font-size: 50px;
-font-family: 'Dancing Script', cursive;
+	color: white;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
 
 }
 
@@ -115,7 +115,7 @@ textarea{
 		width: 100%;
 		position: relative;
 		margin-top: 100px;
-height: 1000px;
+		height: 800px;
 		
 	}
 	#contacto p{
@@ -124,10 +124,10 @@ height: 1000px;
 
 	#titulo_contacto{
 
-font-size: 30px;
-position: relative;
-left: 30%;
-}
+		font-size: 30px;
+		position: relative;
+		left: 30%;
+	}
 	#contacto h1{
 		margin: auto;
 		position: absolute;
@@ -141,7 +141,7 @@ left: 30%;
 		top: 150px;
 	}
 	#contacto h3{
-	font-size: 34px;
+		font-size: 34px;
 	}
 	
 }
@@ -152,38 +152,38 @@ left: 30%;
 		display: none;
 
 	}
-#titulo_contacto{
-	color: black!important;
-}
-#contacto{
-	width: 100%;
-	background-size: 100% 100%;
-	background-image: url('../img/mejores-frases-de-pesame.jpg');
-	margin: auto;
-}
-form{
-	position: absolute;
-	right: 150px;
-}
-#imagen{
-	margin-top: 200px;
-}
-#enviar{
-	 padding: 6px 30px;
-  border-radius: 40px;
-  border: 2px solid #ccc;
-}
- #enviar:hover{
-	color: white;
-	background-color: #008C81;
-	transition: all 0.5s ease;
-}
-#enviar:checked{
-	background-color: purple;
-	color: white;
-	border: 2px solid purple;
-}
-#contacto h1{
+	#titulo_contacto{
+		color: black!important;
+	}
+	#contacto{
+		width: 100%;
+		background-size: 100% 100%;
+		background-image: url('../img/mejores-frases-de-pesame.jpg');
+		margin: auto;
+	}
+	form{
+		position: absolute;
+		right: 150px;
+	}
+	#imagen{
+		margin-top: 200px;
+	}
+	#enviar{
+		padding: 6px 30px;
+		border-radius: 40px;
+		border: 2px solid #ccc;
+	}
+	#enviar:hover{
+		color: white;
+		background-color: #008C81;
+		transition: all 0.5s ease;
+	}
+	#enviar:checked{
+		background-color: purple;
+		color: white;
+		border: 2px solid purple;
+	}
+	#contacto h1{
 		margin-left: 60px;
 		font-size: 80px;
 	}

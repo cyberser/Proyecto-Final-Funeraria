@@ -17,7 +17,7 @@
   height: 500px;
   /*background-color: #FFFFCC; */
   position: relative;
-  margin-top:9vh;
+  margin-top:7vh;
   text-align: center;
   padding: 15px;
   
@@ -32,10 +32,11 @@
   font-family: 'Dancing Script', cursive;
 }
 #somos p{
-  margin-top: -28px;
+  
   font-weight: bold;
   padding: 35px;
   margin-top: 35px;
+
 }
 #somos h1{
   color: black;
@@ -50,6 +51,21 @@ h1{
   position: relative;
 }
 
+@media  (min-width: 400px) {
+  #myVideo {
+    margin-top:-70px;
+  }
+}
+@media  (min-width:500px) {
+  #myVydeo{
+     margin-top:-90px;
+  }
+}
+@media  (min-width:600px) {
+  #myVideo {
+     margin-top:-110px;
+  }
+}
 
 
 
@@ -70,11 +86,12 @@ h1{
 
   }
   #somos p{
-    
+    margin-top: 0;
     font-weight: bold;
     font-size: 20px;
     padding: 40px;
     color: black;
+
   }
   #somos h1{
     width: 400px;
@@ -118,7 +135,7 @@ h1{
 
   }
   #somos p{
-    margin: 150px 50px 50px 50px;
+    margin: 100px 50px 50px 50px;
     font-weight: bold;
     font-size: 20px;
     padding: 0;
@@ -127,3 +144,4 @@ h1{
 
   }
 }
+

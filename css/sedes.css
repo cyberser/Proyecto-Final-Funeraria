@@ -136,6 +136,10 @@ h2{
   right: 30px;
   bottom: 82px;
 
+
+}
+.P-trasera p{
+font-size: 22px;
 }
 .P-trasera1{
   position: absolute;
@@ -147,6 +151,7 @@ h2{
   text-align: center;
   right: 30px;
   bottom: 50px;
+
 }
 .P-frontal img{
   width: 100%;
@@ -207,7 +212,7 @@ figure{
 
 .contenedor figure{
   position: relative;
-  height: 300px;
+  height: 340px;
   width: 400px;
   overflow: hidden;
   border-radius: 6px;

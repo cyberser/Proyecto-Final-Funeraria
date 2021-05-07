@@ -1,6 +1,7 @@
 #servicios{
 	text-align: center;
 margin:auto;
+margin-top: 50px;
 
 }
 #servicios h1{
@@ -8,7 +9,7 @@ margin:auto;
   height: 58px;
   margin:auto;
   margin-bottom: 55px;
-  top:-50px;
+  top:-25px;
   font-size: 40px;
   font-family: 'Dancing Script', cursive;
 }
@@ -194,6 +195,7 @@ a{
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: space-around;
+  
 }
 .no-incluido{
  text-align: center;
@@ -298,6 +300,7 @@ display: block;
   margin-left: 10%;
   margin-top:  120px;
   margin-bottom: 80px;
+  height: 580px;
 }
 
 .card2 img{

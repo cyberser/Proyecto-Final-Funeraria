@@ -64,7 +64,7 @@ try {
    $mail->Subject=$usu ;
   //cuerpo del msj
   //$mail->Body="<b>Este mensaje lo he enviado atravez de<span style='color:#f18e0f;'> XAMPP</span></b>";
-   $mail->Body="$usu <br> Su mensaje fue recibido, pronto estaremos en contacto" ;
+   $mail->Body="$usu número de telefono $tel, mensaje: $men<br> Su mensaje fue recibido, pronto estaremos en contacto" ;
   //ejecuta el envio
   $mail->send();
   //echo "mensaje enviado exitósamente";
