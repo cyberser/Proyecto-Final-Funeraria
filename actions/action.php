@@ -43,19 +43,21 @@ try {
   ///activar la autenticacion smtp
   $mail->SMTPAuth=true;
 //datos de autenticación
-  $mail->Username="sergioma7623@gmail.com";
-  $mail->Password="espectro3455947";
+  //nota: Se tiene que usar el correo del hosting o la cuenta personal 
+  $mail->Username="servicioCliente@funeraria";
+  $mail->Password="";
 
   //habilitar encriptación TLS 
   $mail->SMTPSecure=PHPMailer::ENCRYPTION_STARTTLS;
 
   //EL PUERTO DE SALIDA DE LA INFORMACIÓN
+  //587 gmail
   $mail->Port=587;
 
   //establecer remitente y el destinatario
-  $mail->setFrom("sergioma7623@gmail.com", "sergio");
+  $mail->setFrom("remitente-correo", "Funeraria");
 //correo del destino
-  $mail->addAddress("sergioma7623@gmail.com", "sergio");
+  $mail->addAddress("sergioma7623@gmail.com", "Funeraria");
 
   //contenido
   $mail->CharSet="UTF-8";
