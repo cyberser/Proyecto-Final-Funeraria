@@ -1,5 +1,5 @@
 /*Sección del loader*/
-#contenedor_carga{
+/*#contenedor_carga{
   background-color: rgba(250,240,245,0.9);
   width: 100%;
   height: 100%;
@@ -27,7 +27,7 @@
   to{ transform: rotate(360deg); }
 }
 
-
+*/
 
 
 .caja{
