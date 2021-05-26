@@ -115,7 +115,7 @@
   
   z-index: 999;
   transition: transform 0.3s ease;
-  transform: translate(0,-120%);
+  transform: translate(0,-140%);
 }
 #menu li:hover{
   background-color:#804000;
